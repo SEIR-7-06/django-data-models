@@ -80,7 +80,7 @@ All of the Models for an app are defined in the app's `models.py` file.
 
 Let's create the `Cat` Model by typing in the above code.
 
-Note that each field (attribute) is represented by a Field class, e.g., `CharField`. Here are the [docs of available Field types](https://docs.djangoproject.com/en/2.1/ref/models/fields/#model-field-types) - there's plenty of options.
+Note that each field (attribute) is represented by a Field class, e.g., `CharField`. Here are the [docs of available Field types](https://docs.djangoproject.com/en/3.0/ref/models/fields/#model-field-types) - there's plenty of options.
 
 It's important to note that the Field types for a Model don't just determine the column's data type in the table, Django also uses this information:
 
