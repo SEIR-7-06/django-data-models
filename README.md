@@ -450,7 +450,7 @@ Run this command in the terminal:
 $ python3 manage.py createsuperuser
 ```
 
-Django will want you to create a password that's at least 3 characters long and complex, however, you can bypass it by typing `y` at the warning prompt.
+Django will want you to create a password that's at least 8 characters long and complex, however, you can bypass it by typing `y` at the warning prompt.
 
 You will be prompted to enter a username, email address, and a password.
 
