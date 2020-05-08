@@ -155,7 +155,7 @@ $ python3 manage.py migrate
 To checkout the tables we have in our database, open psql:
 
 ```
-$ psql
+$ psql catcollector
 ```
 
 List all databases:
