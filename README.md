@@ -158,18 +158,6 @@ To checkout the tables we have in our database, open psql:
 $ psql catcollector
 ```
 
-List all databases:
-
-```sql
-\l
-```
-
-Connect to the `catcollector` database:
-
-```sql
-\c catcollector
-```
-
 List the tables:
 
 ```sql
