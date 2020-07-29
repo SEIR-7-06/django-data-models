@@ -31,9 +31,9 @@ This lesson focuses on the **Model layer** which provides **Views** with access 
 
 ## Review the Starter Code
 
-The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-9/CatCollector). 
+The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-10/CatCollector). 
 
-Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/SF-SEI-9/CatCollector) repo.
+Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/SF-SEI-10/CatCollector) repo.
 
 The only change to the starter code from where the last lesson left off is that the `home` view now renders a **home.html** template instead of using `HttpResponse` to send back a string.
 
@@ -155,19 +155,7 @@ $ python3 manage.py migrate
 To checkout the tables we have in our database, open psql:
 
 ```
-$ psql
-```
-
-List all databases:
-
-```sql
-\l
-```
-
-Connect to the `catcollector` database:
-
-```sql
-\c catcollector
+$ psql catcollector
 ```
 
 List the tables:
@@ -462,7 +450,7 @@ Run this command in the terminal:
 $ python3 manage.py createsuperuser
 ```
 
-Django will want you to create a password that's at least 3 characters long and complex, however, you can bypass it by typing `y` at the warning prompt.
+Django will want you to create a password that's at least 8 characters long and complex, however, you can bypass it by typing `y` at the warning prompt.
 
 You will be prompted to enter a username, email address, and a password.
 
