@@ -33,7 +33,7 @@ This lesson focuses on the **Model layer** which provides **Views** with access 
 
 The starter code will be pushed to Github by your instructor. Check for a link in slack or review the repository link [here](https://git.generalassemb.ly/SF-SEI-10/CatCollector). 
 
-Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/SF-SEI-10/CatCollector) repo.
+Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/r-sei-12/catcollector) repo.
 
 The only change to the starter code from where the last lesson left off is that the `home` view now renders a **home.html** template instead of using `HttpResponse` to send back a string.
 
