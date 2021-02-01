@@ -31,7 +31,7 @@ This lesson focuses on the **Model layer** which provides **Views** with access 
 
 ## Review the Starter Code
 
-Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/r-sei-12/catcollector) repo.
+Feel free to use your own code from the previous lesson or pull down the latest code on the [CatCollector](https://git.generalassemb.ly/WC-SEIR-1207/catcollector) repo.
 
 The only change to the starter code from where the last lesson left off is that the `home` view now renders a **home.html** template instead of using `HttpResponse` to send back a string.
 
